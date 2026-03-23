@@ -1,0 +1,34 @@
+[
+    {
+        "ip": "192.168.179.1",
+        "port": 902,
+        "service": "vmware-auth",
+        "cve": "WWW_FINGERPRINTING_HMAP.NASL",
+        "cvss": 0.0,
+        "title": "HMAP Web Server Fingerprinting"
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 912,
+        "service": "vmware-auth",
+        "cve": "NUCLEI:CVE-2022-22956",
+        "cvss": 9.8,
+        "title": "VMware Workspace ONE Access - Authentication Bypass"
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 912,
+        "service": "vmware-auth",
+        "cve": "NUCLEI:CVE-2022-31678",
+        "cvss": 9.1,
+        "title": "VMWare Cloud Foundation NSX-V - XML External Entity (XXE)"
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 912,
+        "service": "vmware-auth",
+        "cve": "NUCLEI:CVE-2020-3952",
+        "cvss": 9.8,
+        "title": "VMware vCenter Server LDAP Broken Access Control"
+    }
+]

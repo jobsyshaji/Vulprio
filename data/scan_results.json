@@ -1,0 +1,51 @@
+[
+    {
+        "ip": "192.168.179.1",
+        "port": 135,
+        "protocol": "tcp",
+        "service": "msrpc",
+        "version": ""
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 139,
+        "protocol": "tcp",
+        "service": "netbios-ssn",
+        "version": ""
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 445,
+        "protocol": "tcp",
+        "service": "microsoft-ds",
+        "version": ""
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 902,
+        "protocol": "tcp",
+        "service": "vmware-auth",
+        "version": "1.10"
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 912,
+        "protocol": "tcp",
+        "service": "vmware-auth",
+        "version": "1.0"
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 3306,
+        "protocol": "tcp",
+        "service": "mysql",
+        "version": ""
+    },
+    {
+        "ip": "192.168.179.1",
+        "port": 7070,
+        "protocol": "tcp",
+        "service": "realserver",
+        "version": ""
+    }
+]
