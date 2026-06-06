@@ -1,10 +1,10 @@
-# ⏻ Automated Vulnerability Intelligence and Exploit Prioritization System
+# ⏻ Vulprio : Automated Vulnerability Intelligence and Exploit Prioritization System
 
 A Python-based cybersecurity framework designed to automate vulnerability discovery, intelligence gathering, risk assessment, and prioritization. The system combines network scanning, vulnerability intelligence, and risk analytics to help identify and prioritize security weaknesses based on severity, exploitability, and service exposure.
 
 ---
 
-## Overview
+## ⌯⌲ Overview
 
 Security teams often face thousands of vulnerabilities, making it difficult to determine which issues require immediate attention. This project addresses that challenge by automating the process of vulnerability identification and risk prioritization.
 
@@ -12,7 +12,7 @@ The framework performs network reconnaissance, maps discovered services to known
 
 ---
 
-## Key Features
+## ⌯⌲ Key Features
 
 * Automated network and service discovery using Nmap
 * Service and version detection
@@ -25,7 +25,7 @@ The framework performs network reconnaissance, maps discovered services to known
 
 ---
 
-## System Architecture
+## ⌯⌲ System Architecture
 
 ```text
 Target Host
@@ -48,7 +48,7 @@ Visualization & Dashboard
 
 ---
 
-## Technologies Used
+## ⌯⌲ Technologies Used
 
 | Technology  | Purpose                              |
 | ----------- | ------------------------------------ |
@@ -61,7 +61,7 @@ Visualization & Dashboard
 
 ---
 
-## Project Structure
+## ⌯⌲ Project Structure
 
 ```text
 Automated-Vulnerability-Intelligence-and-Exploit-Prioritization-System/
@@ -89,7 +89,7 @@ Automated-Vulnerability-Intelligence-and-Exploit-Prioritization-System/
 
 ---
 
-## Risk Prioritization Methodology
+## ⌯⌲ Risk Prioritization Methodology
 
 The system evaluates vulnerabilities using multiple factors:
 
@@ -103,7 +103,7 @@ These factors are combined to generate a prioritized risk score that assists in 
 
 ---
 
-## Future Enhancements
+## ⌯⌲ Future Enhancements
 
 * Integration with additional threat intelligence platforms
 * Automated report generation
@@ -113,12 +113,7 @@ These factors are combined to generate a prioritized risk score that assists in 
 
 ---
 
-## Disclaimer
+## ⌯⌲ Disclaimer
 
-This project is intended for educational, research, and authorized security assessment purposes only. Users are responsible for ensuring compliance with applicable laws and regulations when performing network scans or vulnerability assessments.
+This project is intended for educational, research, and authorized security assessment purposes only.
 
----
-
-## Author
-
-Developed as a cybersecurity project focused on automated vulnerability intelligence and exploit prioritization.
