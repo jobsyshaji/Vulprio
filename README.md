@@ -1,4 +1,4 @@
-# Automated Vulnerability Intelligence and Exploit Prioritization System
+# ⏻ Automated Vulnerability Intelligence and Exploit Prioritization System
 
 A Python-based cybersecurity framework designed to automate vulnerability discovery, intelligence gathering, risk assessment, and prioritization. The system combines network scanning, vulnerability intelligence, and risk analytics to help identify and prioritize security weaknesses based on severity, exploitability, and service exposure.
 
@@ -8,7 +8,7 @@ A Python-based cybersecurity framework designed to automate vulnerability discov
 
 Security teams often face thousands of vulnerabilities, making it difficult to determine which issues require immediate attention. This project addresses that challenge by automating the process of vulnerability identification and risk prioritization.
 
-The framework performs network reconnaissance, maps discovered services to known vulnerabilities, gathers vulnerability intelligence, calculates risk scores, and presents the results through visualizations and an interactive dashboard.
+The framework performs network reconnaissance, maps discovered services to known vulnerabilities, gathers vulnerability intelligence, calculates risk scores in a controlled environment, and presents the results through visualizations and an interactive dashboard.
 
 ---
 
@@ -100,40 +100,6 @@ The system evaluates vulnerabilities using multiple factors:
 * Vulnerability intelligence data
 
 These factors are combined to generate a prioritized risk score that assists in remediation planning.
-
----
-
-## Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the Application
-
-```bash
-python run_pipeline.py
-```
-
----
-
-## Applications
-
-* Vulnerability Assessment
-* Security Operations (SOC)
-* Risk Analysis
-* Security Research
-* Educational and Academic Projects
-* Cybersecurity Training Environments
 
 ---
 
