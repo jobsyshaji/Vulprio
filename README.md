@@ -1,65 +1,158 @@
-=======
-# Automated-Vulnerability-Intelligence-and-Exploit-Prioritization-System
-A Python-based vulnerability analysis framework that automates network scanning, CVE intelligence retrieval, risk scoring, and visualization to help prioritize security vulnerabilities based on exploitability, exposure, and severity.
+# Automated Vulnerability Intelligence and Exploit Prioritization System
 
-## Project Overview
+A Python-based cybersecurity framework designed to automate vulnerability discovery, intelligence gathering, risk assessment, and prioritization. The system combines network scanning, vulnerability intelligence, and risk analytics to help identify and prioritize security weaknesses based on severity, exploitability, and service exposure.
 
-The system automates the process of vulnerability discovery and analysis using network scanning and vulnerability intelligence.
+---
 
-The workflow includes:
+## Overview
 
-- Network scanning using Nmap
-- Service and version detection
-- Vulnerability identification using CVE intelligence
-- Risk prioritization using CVSS severity, exploit availability, and service exposure
-- Visualization of vulnerability risk
-- Web-based dashboard for vulnerability analysis
+Security teams often face thousands of vulnerabilities, making it difficult to determine which issues require immediate attention. This project addresses that challenge by automating the process of vulnerability identification and risk prioritization.
+
+The framework performs network reconnaissance, maps discovered services to known vulnerabilities, gathers vulnerability intelligence, calculates risk scores, and presents the results through visualizations and an interactive dashboard.
+
+---
+
+## Key Features
+
+* Automated network and service discovery using Nmap
+* Service and version detection
+* CVE intelligence retrieval from vulnerability databases
+* Risk scoring based on vulnerability severity and exploitability
+* Vulnerability prioritization for remediation planning
+* Graphical visualization of risk distribution
+* Web-based dashboard for analysis and reporting
+* Modular and extensible project architecture
+
+---
+
+## System Architecture
+
+```text
+Target Host
+     │
+     ▼
+Network Scanning (Nmap)
+     │
+     ▼
+Service & Version Detection
+     │
+     ▼
+Vulnerability Intelligence Mapping
+     │
+     ▼
+Risk Assessment Engine
+     │
+     ▼
+Visualization & Dashboard
+```
+
+---
 
 ## Technologies Used
 
-- Python
-- Nmap
-- Vulners API
-- Pandas
-- Matplotlib
-- Flask
+| Technology  | Purpose                              |
+| ----------- | ------------------------------------ |
+| Python      | Core application development         |
+| Nmap        | Network and service scanning         |
+| Vulners API | Vulnerability intelligence retrieval |
+| Pandas      | Data processing and analysis         |
+| Matplotlib  | Risk visualization                   |
+| Flask       | Dashboard development                |
 
-## System Workflow
-
-Target System  
-↓  
-Nmap Service Scan  
-↓  
-CVE Intelligence Lookup  
-↓  
-Risk Score Calculation  
-↓  
-Visualization and Dashboard
-
-## Project Purpose
-
-The goal of this project is to demonstrate how vulnerability intelligence and automated analysis can help security teams prioritize remediation efforts and focus on the most critical vulnerabilities.
+---
 
 ## Project Structure
 
-scanner/
-- Automated Nmap scanning module
+```text
+Automated-Vulnerability-Intelligence-and-Exploit-Prioritization-System/
 
-vuln_intel/
-- CVE intelligence lookup using vulnerability APIs
+├── dashboard/
+│   └── Web-based vulnerability dashboard
 
-risk_engine/
-- Custom vulnerability risk scoring module
+├── scanner/
+│   └── Automated network scanning modules
 
-visualization/
-- Risk chart and analysis visualization
+├── risk_engine/
+│   └── Vulnerability risk calculation logic
 
-dashboard/
-- Flask web interface for displaying results
+├── visualization/
+│   └── Risk graphs and analytical visualizations
 
-data/
-- Scan results and vulnerability datasets
+├── run_pipeline.py
+│   └── Main execution pipeline
 
-docs/
-- Project documentation and diagrams
+├── requirements.txt
+│   └── Project dependencies
 
+└── README.md
+```
+
+---
+
+## Risk Prioritization Methodology
+
+The system evaluates vulnerabilities using multiple factors:
+
+* CVSS severity score
+* Exploit availability
+* Service exposure
+* Potential impact
+* Vulnerability intelligence data
+
+These factors are combined to generate a prioritized risk score that assists in remediation planning.
+
+---
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+python run_pipeline.py
+```
+
+---
+
+## Applications
+
+* Vulnerability Assessment
+* Security Operations (SOC)
+* Risk Analysis
+* Security Research
+* Educational and Academic Projects
+* Cybersecurity Training Environments
+
+---
+
+## Future Enhancements
+
+* Integration with additional threat intelligence platforms
+* Automated report generation
+* Real-time vulnerability monitoring
+* Machine learning–based risk prediction
+* Expanded dashboard analytics
+
+---
+
+## Disclaimer
+
+This project is intended for educational, research, and authorized security assessment purposes only. Users are responsible for ensuring compliance with applicable laws and regulations when performing network scans or vulnerability assessments.
+
+---
+
+## Author
+
+Developed as a cybersecurity project focused on automated vulnerability intelligence and exploit prioritization.
