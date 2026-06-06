@@ -6,10 +6,10 @@ print("[*] Loading vulnerability data...")
 
 df = pd.read_csv("data/prioritized_vulnerabilities.csv")
 
-# keep only real CVE IDs
+
 df = df[df["cve"].astype(str).str.contains("CVE", na=False)]
 
-# keep top 6 highest risk vulnerabilities
+
 df = df.sort_values("risk_score", ascending=False).head(6)
 
 # -----------------------------
@@ -56,7 +56,7 @@ for _, row in df.iterrows():
 
 fig = plt.figure(figsize=(12,8))
 
-# Small attack graph (top)
+
 ax1 = plt.subplot2grid((3,1),(0,0))
 
 nx.draw(
