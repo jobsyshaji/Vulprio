@@ -62,7 +62,7 @@ Visualization & Dashboard
 ---
 
 ## » Project Structure
-
+```text
 
 Automated-Vulnerability-Intelligence-and-Exploit-Prioritization-System/
 
